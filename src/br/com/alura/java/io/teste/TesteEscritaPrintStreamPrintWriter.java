@@ -12,7 +12,7 @@ import java.io.Writer;
 
 
 
-public class TesteEscrita3 {
+public class TesteEscritaPrintStreamPrintWriter {
 
 	public static void main(String[] args) throws IOException {
 		
@@ -25,7 +25,7 @@ public class TesteEscrita3 {
 		
 		//BufferedWriter bw  = new BufferedWriter(new FileWriter("Lorem2.txt"));
 		//PrintStream ps = new PrintStream("Lorem2.txt");
-		PrintWriter ps = new PrintWriter("Lorem2.txt");
+		PrintWriter ps = new PrintWriter("Lorem2.txt", "UTF-8");
 		
 		ps.println("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ");
 		ps.println();
